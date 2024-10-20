@@ -1,0 +1,30 @@
+{
+  "files.associations": {
+    "*.ndjson": "jsonl",
+    "*.dbclient-js": "javascript",
+    "*.embeddedhtml": "html",
+    "vector": "cpp",
+    "*.tcc": "cpp",
+    "list": "cpp",
+    "array": "cpp",
+    "hash_map": "cpp",
+    "chrono": "cpp",
+    "deque": "cpp",
+    "forward_list": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "string_view": "cpp",
+    "format": "cpp",
+    "generator": "cpp",
+    "initializer_list": "cpp",
+    "ranges": "cpp",
+    "span": "cpp",
+    "stacktrace": "cpp",
+    "text_encoding": "cpp",
+    "regex": "cpp",
+    "valarray": "cpp",
+    "bitset": "cpp",
+    "cstdlib": "cpp"
+  }
+}
