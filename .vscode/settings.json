@@ -1,5 +1,7 @@
 {
   "files.associations": {
+    "*.ndjson": "jsonl",
+    "*.dbclient-js": "javascript",
     "*.embeddedhtml": "html",
     "vector": "cpp",
     "*.tcc": "cpp",
@@ -22,6 +24,7 @@
     "text_encoding": "cpp",
     "regex": "cpp",
     "valarray": "cpp",
-    "bitset": "cpp"
+    "bitset": "cpp",
+    "cstdlib": "cpp"
   }
 }
