@@ -1,4 +1,4 @@
-:w#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Solution {
@@ -11,9 +11,7 @@ public:
             jobs.push_back({profit[i], {deadline[i], id[i]}});
         }
 
-        sort(jobs.begin(), jobs.end(), [](const pair<int, pair<int, int>> &a, const pair<int, pair<int, int>> &b) {
-            return a.first > b.first;
-        });
+        sort(jobs.rbegin(), jobs.rend());
 
         int maxDeadline = *max_element(deadline.begin(), deadline.end());
         vector<bool> slot(maxDeadline + 1, false);
